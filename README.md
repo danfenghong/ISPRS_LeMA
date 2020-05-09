@@ -3,10 +3,11 @@
 Danfeng Hong, Naoto Yokoya, Nan Ge, Jocelyn Chanussot, Xiaoxiang Zhu
 ---------------------
 
-![alt text](./workflow_RS.png)
-
 The code in this toolbox implements the ["Learnable Manifold Alignment (LeMA): A Semi-supervised Cross-modality Learning Framework for Land Cover and Land Use Classification"](https://www.sciencedirect.com/science/article/pii/S0924271618302843).
 More specifically, it is detailed as follow.
+
+
+![alt text](./workflow_RS.png)
 
 Citation
 ---------------------
