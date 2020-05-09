@@ -9,17 +9,17 @@ addpath('CCF'); %load CCF classifier
 
 %load data, if you wanna run this code in your own data, please change
 %the following data using your data.
-load MSI.mat; % size: M * N * Z (M and N: width and length of the image, Z: band)
-load HSI.mat; % size: M * N * Z (M and N: width and length of the image, Z: band)
-load TR_map.mat; % size: M * N (M and N: width and length of the image)
-load TE_map.mat; % size: M * N (M and N: width and length of the image)
+load MS_HR_Houston.mat; % size: M * N * Z (M and N: width and length of the image, Z: band)
+load HS_LR_Houston.mat; % size: M * N * Z (M and N: width and length of the image, Z: band)
+load TrainImage.mat; % size: M * N (M and N: width and length of the image)
+load TestImage.mat; % size: M * N (M and N: width and length of the image)
 
 %% Generate classification map for initializing the graph of unlabeled samples
-pred_CM = Generate_CM(MSI, TR_map);
+pred_CM = Generate_CM(data_MS_HR, TrainImage);
 
 %% Generate samples and labels
 [TrainMS, TestMS, Un_MS_CC, TrainHS, TrainLabel,TestLabel, Un_MS_pl_CC] ...
-                          = Generate_Sample_Label(HSI, MSI, TR_map, TE_map, pred_CM);
+                          = Generate_Sample_Label(data_HS_LR, data_MS_HR, TrainImage, TestImage, pred_CM);
 
 %LPP's parameters used for initializing CoSpace
 param.k = 10;
