@@ -3,6 +3,9 @@
 Danfeng Hong, Naoto Yokoya, Nan Ge, Jocelyn Chanussot, Xiaoxiang Zhu
 ---------------------
 
+Cloud and Shadow Removal Results for Multi-temporal Sequence Sentinel-2 MSI data: (**Full Width, 20m-Resolution**)
+<img src="Results.png" width="1217px"/>
+
 The code in this toolbox implements the ["Learnable Manifold Alignment (LeMA): A Semi-supervised Cross-modality Learning Framework for Land Cover and Land Use Classification"](https://www.sciencedirect.com/science/article/pii/S0924271618302843).
 More specifically, it is detailed as follow.
 
