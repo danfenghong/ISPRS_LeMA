@@ -14,6 +14,8 @@ Citation
 
 **Please kindly cite the papers if this code is useful and helpful for your research.**
 
+Danfeng Hong, Naoto Yokoya, Nan Ge, Jocelyn Chanussot, Xiao Xiang Zhu. Learnable Manifold Alignment (LeMA): A Semi-supervised Cross-modality Learning Framework for Land Cover and Land Use Classification, ISPRS Journal of Photogrammetry and Remote Sensing, 2019, 147: 193-205.
+
      @article{hong2019learnable,
       title={Learnable Manifold Alignment ({L}e{MA}): A Semi-supervised Cross-modality Learning Framework for Land Cover and Land Use Classification},
       author={D. Hong and N. Yokoya and N. Ge and J. Chanussot and X. Zhu},
